@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Designer Delights</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-div">
+            <img  class="logo-img" src="logo.png">
+            <h1>Designer Delights</h1>
+        </div>
+        <p>Write your prompt to generate images with power of AI, For example : "Best Quality, Masterpiece,
+            Exteremly Detailed, High Resolution, 4K, Ultra High Resolution, Detailed Shadows, (Two Girls in Costumes
+            Taking Selfies on The Street), Colorful Braids, Cute, Laugh".</p>
+
+        <form class="gen-form">
+            <input type="text" id="user-prompt" placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
